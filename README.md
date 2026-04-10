@@ -1,10 +1,8 @@
-<h1>📚 Library Management System</h1>
+📚 Library Management System
 
 A simple Library Management System built using Python and Streamlit, with JSON-based storage. This project allows users to manage books, members, and borrowing operations through an interactive UI.
 
-
-
-<h2>🚀 Features</h2>
+🚀 Features
 📖 Add new books to the library
 📋 View list of available books
 👤 Add library members
@@ -13,9 +11,7 @@ A simple Library Management System built using Python and Streamlit, with JSON-b
 ✅ Return books
 💾 Persistent storage using JSON file
 
-
-
-<h2>🛠️ Tech Stack</h2>
+🛠️ Tech Stack
 Python
 Streamlit
 JSON (for database storage)
@@ -24,9 +20,7 @@ JSON (for database storage)
 ├── library.json         # Database file (auto-created)
 └── README.md            # Project documentation
 
-
-
-<h2>⚙️ Installation & Setup</h2>
+⚙️ Installation & Setup
 Clone the repository:
 git clone https://github.com/your-username/library-management-system.git
 cd library-management-system
@@ -35,9 +29,7 @@ pip install streamlit
 Run the app:
 streamlit run app.py
 
-
-
-<h2>📊 How It Works</h2>
+📊 How It Works
 The system stores all data in a JSON file (library.json)
 Each book and member has a unique ID generated automatically
 Borrowing a book:
@@ -47,9 +39,7 @@ Returning a book:
 Increases available copies
 Removes entry from member’s borrowed list
 
-
-
-<h2>🧾 Sample Data</h2>
+🧾 Sample Data
 
 Example structure of stored data:
 
@@ -77,44 +67,34 @@ Example structure of stored data:
   ]
 }
 
-
-
-<h2>🧠 Key Concepts Used</h2>
+🧠 Key Concepts Used
 Object-Oriented Programming (OOP)
 File handling (JSON)
 Unique ID generation
 State management in Streamlit
 
-
-
-<h2>⚠️ Known Issues / Improvements</h2>
+⚠️ Known Issues / Improvements
 No validation for duplicate books or members
 No authentication system
 UI can be improved with better styling
 Search & filter features can be added
 
-
-
-<h2>🌱 Future Enhancements</h2>
+🌱 Future Enhancements
 🔍 Search books by title/author
 📊 Dashboard with analytics
 🔐 Login system (Admin/User roles)
 ☁️ Database integration (MongoDB / MySQL)
 📱 Better UI/UX design
 
-
-
-<h2>🙌 Acknowledgment</h2>
+🙌 Acknowledgment
 
 This project is a great beginner-friendly implementation of a CRUD-based system using Python and Streamlit.
 
-📎 Additional Version (CLI)
-
-This repository also includes a Command-Line Interface (CLI) version of the system:
 
 
 
-<h2>⭐ Show Your Support</h2>
+
+⭐ Show Your Support
 
 If you like this project:
 

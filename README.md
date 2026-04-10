@@ -112,8 +112,8 @@ streamlit run app.py
 
 If you like this project:
 
--⭐ Star the repo
--🍴 Fork it
--🚀 Share it
+- ⭐ Star the repo
+- 🍴 Fork it
+- 🚀 Share it
 
 ---

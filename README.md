@@ -2,6 +2,8 @@
 
 A simple Library Management System built using Python and Streamlit, with JSON-based storage. This project allows users to manage books, members, and borrowing operations through an interactive UI.
 
+
+
 <h2>🚀 Features</h2>
 📖 Add new books to the library
 📋 View list of available books
@@ -10,6 +12,8 @@ A simple Library Management System built using Python and Streamlit, with JSON-b
 🔄 Borrow books
 ✅ Return books
 💾 Persistent storage using JSON file
+
+
 
 <h2>🛠️ Tech Stack</h2>
 Python
@@ -20,6 +24,8 @@ JSON (for database storage)
 ├── library.json         # Database file (auto-created)
 └── README.md            # Project documentation
 
+
+
 <h2>⚙️ Installation & Setup</h2>
 Clone the repository:
 git clone https://github.com/your-username/library-management-system.git
@@ -28,6 +34,8 @@ Install dependencies:
 pip install streamlit
 Run the app:
 streamlit run app.py
+
+
 
 <h2>📊 How It Works</h2>
 The system stores all data in a JSON file (library.json)
@@ -38,6 +46,8 @@ Adds entry to member’s borrowed list
 Returning a book:
 Increases available copies
 Removes entry from member’s borrowed list
+
+
 
 <h2>🧾 Sample Data</h2>
 
@@ -67,17 +77,23 @@ Example structure of stored data:
   ]
 }
 
+
+
 <h2>🧠 Key Concepts Used</h2>
 Object-Oriented Programming (OOP)
 File handling (JSON)
 Unique ID generation
 State management in Streamlit
 
+
+
 <h2>⚠️ Known Issues / Improvements</h2>
 No validation for duplicate books or members
 No authentication system
 UI can be improved with better styling
 Search & filter features can be added
+
+
 
 <h2>🌱 Future Enhancements</h2>
 🔍 Search books by title/author
@@ -86,6 +102,8 @@ Search & filter features can be added
 ☁️ Database integration (MongoDB / MySQL)
 📱 Better UI/UX design
 
+
+
 <h2>🙌 Acknowledgment</h2>
 
 This project is a great beginner-friendly implementation of a CRUD-based system using Python and Streamlit.
@@ -93,6 +111,7 @@ This project is a great beginner-friendly implementation of a CRUD-based system 
 📎 Additional Version (CLI)
 
 This repository also includes a Command-Line Interface (CLI) version of the system:
+
 
 
 <h2>⭐ Show Your Support</h2>

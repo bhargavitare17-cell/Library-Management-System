@@ -20,7 +20,7 @@ JSON (for database storage)
 ├── library.json         # Database file (auto-created)
 └── README.md            # Project documentation
 
-⚙️ Installation & Setup
+<h2>⚙️ Installation & Setup</h2>
 Clone the repository:
 git clone https://github.com/your-username/library-management-system.git
 cd library-management-system
@@ -29,7 +29,7 @@ pip install streamlit
 Run the app:
 streamlit run app.py
 
-📊 How It Works
+<h2>📊 How It Works</h2>
 The system stores all data in a JSON file (library.json)
 Each book and member has a unique ID generated automatically
 Borrowing a book:
@@ -39,7 +39,7 @@ Returning a book:
 Increases available copies
 Removes entry from member’s borrowed list
 
-🧾 Sample Data
+<h2>🧾 Sample Data</h2>
 
 Example structure of stored data:
 
@@ -67,25 +67,26 @@ Example structure of stored data:
   ]
 }
 
-🧠 Key Concepts Used
+<h2>🧠 Key Concepts Used</h2>
 Object-Oriented Programming (OOP)
 File handling (JSON)
 Unique ID generation
 State management in Streamlit
 
-⚠️ Known Issues / Improvements
+<h2>⚠️ Known Issues / Improvements</h2>
 No validation for duplicate books or members
 No authentication system
 UI can be improved with better styling
 Search & filter features can be added
 
-🌱 Future Enhancements
+<h2>🌱 Future Enhancements</h2>
 🔍 Search books by title/author
 📊 Dashboard with analytics
 🔐 Login system (Admin/User roles)
 ☁️ Database integration (MongoDB / MySQL)
 📱 Better UI/UX design
-🙌 Acknowledgment
+
+<h2>🙌 Acknowledgment</h2>
 
 This project is a great beginner-friendly implementation of a CRUD-based system using Python and Streamlit.
 
@@ -94,7 +95,7 @@ This project is a great beginner-friendly implementation of a CRUD-based system 
 This repository also includes a Command-Line Interface (CLI) version of the system:
 
 
-⭐ Show Your Support
+<h2>⭐ Show Your Support</h2>
 
 If you like this project:
 
